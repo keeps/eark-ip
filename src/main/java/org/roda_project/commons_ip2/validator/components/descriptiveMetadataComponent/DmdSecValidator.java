@@ -63,7 +63,7 @@ public abstract class DmdSecValidator {
             false, false);
         }
       } else {
-        regex = metsValidatorState.getMetsPath() + "/metadata/descriptive/.*";
+        regex = metsValidatorState.getMetsPath() + "metadata/descriptive/.*";
       }
       final ZipManager zipManager = structureValidatorState.getZipManager();
 
